@@ -24,3 +24,6 @@ print("-" * 30)
 for p in passwords_to_test:
     grade = audit_password(p)
     print(f"{p:<15} | {grade}")
+    # End of the program
+    for i in range(3):
+        print("Scanning" + "." * (i + 1))
